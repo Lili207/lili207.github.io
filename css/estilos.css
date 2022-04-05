@@ -1,0 +1,132 @@
+.logo img
+{
+	width: 60%;
+	height: auto;
+	position: relative;
+	margin: 0% auto;
+}
+header
+{
+	width: 100%;
+	height: 90px;
+	border-bottom: solid 2px #ccc;
+	background: #599f89;
+}
+.jumbotron
+{
+	background: url(../img/natu.jpg);
+    background-size: 100%
+    background-repeat: no-repeat;
+}
+.jumbotron h1, .jumbotron p 
+{
+	color:#fff !important;
+	text-align: center;
+}
+footer
+{
+	width: 100%;
+	height:60px;
+	background:#599f89;
+	position: fixed;
+	bottom: 0;
+}
+
+html,
+body {
+	margin: 0;
+	font-size: 100%;
+	background: #599f89;
+	font-family: sans-serif;
+	scroll-behavior: smooth;
+	background-color: #fff;
+}
+
+header {
+	z-index: 9;
+	width: 100%;
+}
+
+.toggle,
+[id^=drop] {
+	display: none;
+}
+nav {
+	margin: 0;
+	padding: 0;
+}
+nav:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+nav ul {
+	float: right;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	position: relative;
+}
+nav ul li {
+	margin: 1px 1em;
+	direction: inline-block;
+	float: left;
+}
+.menu li a {
+	font-weight: 600;
+	font-size: 0.8em;
+	letter-spacing: 2px;
+	padding-left: 0;
+	padding-right: 0;
+	padding: 10px 0;
+	color: #fff;
+	text-transform: uppercase;
+}
+.menu li ul li a {
+	color:#555;
+	padding: 10px 10px;
+	font-style: 0.8em;
+}
+.menu li ul li:hover {
+	background: #fff;
+}
+nav .menu li a:hover {
+	color: #FDFEFE;
+}
+.menu li.active a {
+	color: #FDFEFE;
+}
+nav ul ul {
+	display: none;
+	position: absolute;
+	top: 30%;
+	background:#fff;
+	padding: 10px;
+}
+
+nav ul li:hover > ul {
+	display: inherit; 
+}
+
+nav ul li:hover > ul {
+	display: inherit;
+}
+nav ul ul li{
+	width: 170px;
+	float: none;
+	display: list-item;
+	padding: relative;
+	margin: 0;
+}
+
+nav ul ul li a {
+	color: #333;
+	padding: 5px 10px;
+	display: block;
+}
+h1 { 
+	width:40%
+	height: 30px;
+	color: #CD5C5C;
+	text-align;
+}
